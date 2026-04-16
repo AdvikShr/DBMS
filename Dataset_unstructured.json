@@ -1,0 +1,373 @@
+{
+  "database": "FashionTrendDB",
+  "createdAt": "2026-04-13",
+
+  "users": [
+    {
+      "username": "fashion_nova",
+      "email": "nova@style.com",
+      "password": "hashed1",
+      "favoriteStyles": ["Y2K", "Streetwear"],
+      "region": "USA",
+      "joinDate": "2025-03-10"
+    },
+    {
+      "username": "style_by_priya",
+      "email": "priya@trend.in",
+      "password": "hashed2",
+      "favoriteStyles": ["Ethnic Fusion", "Boho"],
+      "region": "India",
+      "joinDate": "2026-01-05"
+    },
+    {
+      "username": "london_look",
+      "email": "look@uk.com",
+      "password": "hashed3",
+      "favoriteStyles": ["Minimalist", "Classic"],
+      "region": "UK",
+      "joinDate": "2025-07-20"
+    },
+    {
+      "username": "seoul_street",
+      "email": "street@korea.com",
+      "password": "hashed4",
+      "favoriteStyles": ["K-Pop Fashion", "Streetwear"],
+      "region": "South Korea",
+      "joinDate": "2026-02-14"
+    },
+    {
+      "username": "paris_mode",
+      "email": "mode@paris.fr",
+      "password": "hashed5",
+      "favoriteStyles": ["Haute Couture", "Minimalist"],
+      "region": "France",
+      "joinDate": "2025-11-03"
+    }
+  ],
+
+  "posts": [
+    {
+      "userId": "fashion_nova",
+      "caption": "Love the Y2K streetwear vibe! Denim on denim is back. #Y2K #streetwear #denim",
+      "hashtags": ["Y2K", "streetwear", "denim"],
+      "region": "USA",
+      "source": "Instagram",
+      "postDate": "2026-03-10",
+      "extractedKeywords": [
+        { "keyword": "Y2K",        "category": "Style"  },
+        { "keyword": "streetwear", "category": "Style"  },
+        { "keyword": "denim",      "category": "Fabric" }
+      ]
+    },
+    {
+      "userId": "style_by_priya",
+      "caption": "Ethnic fusion is taking over this season! #ethnicfusion #boho #india",
+      "hashtags": ["ethnicfusion", "boho", "india"],
+      "region": "India",
+      "source": "Instagram",
+      "postDate": "2026-03-15",
+      "extractedKeywords": [
+        { "keyword": "Ethnic Fusion", "category": "Style" },
+        { "keyword": "boho",          "category": "Style" }
+      ]
+    },
+    {
+      "userId": "london_look",
+      "caption": "Minimalist denim jacket on point. Less is more. #minimalist #denim #classic",
+      "hashtags": ["minimalist", "denim", "classic"],
+      "region": "UK",
+      "source": "Blog",
+      "postDate": "2026-02-20",
+      "extractedKeywords": [
+        { "keyword": "minimalist", "category": "Style"  },
+        { "keyword": "denim",      "category": "Fabric" }
+      ]
+    },
+    {
+      "userId": "seoul_street",
+      "caption": "K-pop fashion going global! Pastel oversized fits are everything. #kpop #pastel #streetwear",
+      "hashtags": ["kpop", "pastel", "streetwear"],
+      "region": "South Korea",
+      "source": "Instagram",
+      "postDate": "2026-04-01",
+      "extractedKeywords": [
+        { "keyword": "K-Pop",      "category": "Style" },
+        { "keyword": "pastel",     "category": "Color" },
+        { "keyword": "streetwear", "category": "Style" }
+      ]
+    },
+    {
+      "userId": "paris_mode",
+      "caption": "Silk blouses and wide leg trousers are the Parisian way this spring. #silk #minimalist #spring",
+      "hashtags": ["silk", "minimalist", "spring"],
+      "region": "France",
+      "source": "Blog",
+      "postDate": "2026-03-25",
+      "extractedKeywords": [
+        { "keyword": "silk",       "category": "Fabric" },
+        { "keyword": "minimalist", "category": "Style"  }
+      ]
+    },
+    {
+      "userId": "fashion_nova",
+      "caption": "Vintage denim never dies. Found this gem at a thrift store. #vintage #denim #Y2K",
+      "hashtags": ["vintage", "denim", "Y2K"],
+      "region": "USA",
+      "source": "Instagram",
+      "postDate": "2026-01-05",
+      "extractedKeywords": [
+        { "keyword": "vintage", "category": "Style"  },
+        { "keyword": "denim",   "category": "Fabric" },
+        { "keyword": "Y2K",     "category": "Style"  }
+      ]
+    },
+    {
+      "userId": "style_by_priya",
+      "caption": "Pastel shades for summer! Lavender is my go-to colour. #pastel #summer #lavender",
+      "hashtags": ["pastel", "summer", "lavender"],
+      "region": "India",
+      "source": "Instagram",
+      "postDate": "2026-02-10",
+      "extractedKeywords": [
+        { "keyword": "pastel",   "category": "Color" },
+        { "keyword": "lavender", "category": "Color" }
+      ]
+    },
+    {
+      "userId": "london_look",
+      "caption": "Sustainable fashion is the future. Linen and organic cotton only. #sustainable #linen",
+      "hashtags": ["sustainable", "linen", "ecofashion"],
+      "region": "UK",
+      "source": "Blog",
+      "postDate": "2026-03-05",
+      "extractedKeywords": [
+        { "keyword": "sustainable", "category": "Lifestyle" },
+        { "keyword": "linen",       "category": "Fabric"    }
+      ]
+    }
+  ],
+
+  "trends": [
+    { "trendName": "Y2K Streetwear",      "category": "Style",     "season": "Spring", "popularityScore": 87, "mentions": 540, "region": "USA"         },
+    { "trendName": "Minimalist Fashion",  "category": "Style",     "season": "Spring", "popularityScore": 82, "mentions": 412, "region": "France"      },
+    { "trendName": "Pastel Aesthetic",    "category": "Color",     "season": "Summer", "popularityScore": 76, "mentions": 356, "region": "South Korea" },
+    { "trendName": "Vintage Denim",       "category": "Style",     "season": "Winter", "popularityScore": 71, "mentions": 310, "region": "USA"         },
+    { "trendName": "Sustainable Fashion", "category": "Lifestyle", "season": "All",    "popularityScore": 65, "mentions": 278, "region": "UK"          },
+    { "trendName": "Ethnic Fusion",       "category": "Style",     "season": "Spring", "popularityScore": 78, "mentions": 520, "region": "India"       },
+    { "trendName": "K-Pop Fashion",       "category": "Style",     "season": "All",    "popularityScore": 84, "mentions": 610, "region": "South Korea" },
+    { "trendName": "Boho Chic",           "category": "Style",     "season": "Summer", "popularityScore": 58, "mentions": 190, "region": "India"       },
+    { "trendName": "Athleisure",          "category": "Lifestyle", "season": "All",    "popularityScore": 79, "mentions": 480, "region": "USA"         },
+    { "trendName": "Grunge Revival",      "category": "Style",     "season": "Autumn", "popularityScore": 59, "mentions": 188, "region": "USA"         },
+    { "trendName": "Neon Accents",        "category": "Color",     "season": "Spring", "popularityScore": 55, "mentions": 175, "region": "France"      },
+    { "trendName": "Velvet Luxe",         "category": "Fabric",    "season": "Winter", "popularityScore": 61, "mentions": 198, "region": "Italy"       },
+    { "trendName": "Monochrome Dressing", "category": "Style",     "season": "Spring", "popularityScore": 72, "mentions": 305, "region": "South Korea" },
+    { "trendName": "Linen Lifestyle",     "category": "Fabric",    "season": "Summer", "popularityScore": 66, "mentions": 222, "region": "UK"          },
+    { "trendName": "Haute Couture Revival","category": "Style",    "season": "Winter", "popularityScore": 74, "mentions": 290, "region": "France"      }
+  ],
+
+  "keywords": [
+    { "keyword": "denim",       "category": "Fabric",    "relatedTrend": "Y2K Streetwear"      },
+    { "keyword": "pastel",      "category": "Color",     "relatedTrend": "Pastel Aesthetic"    },
+    { "keyword": "silk",        "category": "Fabric",    "relatedTrend": "Minimalist Fashion"  },
+    { "keyword": "Y2K",         "category": "Style",     "relatedTrend": "Y2K Streetwear"      },
+    { "keyword": "minimalist",  "category": "Style",     "relatedTrend": "Minimalist Fashion"  },
+    { "keyword": "boho",        "category": "Style",     "relatedTrend": "Boho Chic"           },
+    { "keyword": "vintage",     "category": "Style",     "relatedTrend": "Vintage Denim"       },
+    { "keyword": "sustainable", "category": "Lifestyle", "relatedTrend": "Sustainable Fashion" },
+    { "keyword": "linen",       "category": "Fabric",    "relatedTrend": "Linen Lifestyle"     },
+    { "keyword": "neon",        "category": "Color",     "relatedTrend": "Neon Accents"        },
+    { "keyword": "velvet",      "category": "Fabric",    "relatedTrend": "Velvet Luxe"         },
+    { "keyword": "leather",     "category": "Fabric",    "relatedTrend": "Grunge Revival"      },
+    { "keyword": "streetwear",  "category": "Style",     "relatedTrend": "Y2K Streetwear"      },
+    { "keyword": "athleisure",  "category": "Style",     "relatedTrend": "Athleisure"          },
+    { "keyword": "grunge",      "category": "Style",     "relatedTrend": "Grunge Revival"      },
+    { "keyword": "monochrome",  "category": "Style",     "relatedTrend": "Monochrome Dressing" },
+    { "keyword": "retro",       "category": "Style",     "relatedTrend": "Y2K Streetwear"      },
+    { "keyword": "lavender",    "category": "Color",     "relatedTrend": "Pastel Aesthetic"    },
+    { "keyword": "cotton",      "category": "Fabric",    "relatedTrend": "Sustainable Fashion" },
+    { "keyword": "spring",      "category": "Season",    "relatedTrend": "Y2K Streetwear"      },
+    { "keyword": "summer",      "category": "Season",    "relatedTrend": "Pastel Aesthetic"    },
+    { "keyword": "winter",      "category": "Season",    "relatedTrend": "Vintage Denim"       }
+  ],
+
+  "regions": [
+    {
+      "regionName": "USA",
+      "topTrends": [
+        { "trendName": "Y2K Streetwear",  "popularityScore": 87 },
+        { "trendName": "Athleisure",      "popularityScore": 79 },
+        { "trendName": "Vintage Denim",   "popularityScore": 71 }
+      ]
+    },
+    {
+      "regionName": "India",
+      "topTrends": [
+        { "trendName": "Ethnic Fusion",       "popularityScore": 78 },
+        { "trendName": "Boho Chic",           "popularityScore": 58 },
+        { "trendName": "Sustainable Fashion", "popularityScore": 65 }
+      ]
+    },
+    {
+      "regionName": "UK",
+      "topTrends": [
+        { "trendName": "Minimalist Fashion",  "popularityScore": 82 },
+        { "trendName": "Sustainable Fashion", "popularityScore": 65 },
+        { "trendName": "Linen Lifestyle",     "popularityScore": 66 }
+      ]
+    },
+    {
+      "regionName": "France",
+      "topTrends": [
+        { "trendName": "Minimalist Fashion",   "popularityScore": 82 },
+        { "trendName": "Haute Couture Revival","popularityScore": 74 },
+        { "trendName": "Neon Accents",         "popularityScore": 55 }
+      ]
+    },
+    {
+      "regionName": "South Korea",
+      "topTrends": [
+        { "trendName": "K-Pop Fashion",       "popularityScore": 84 },
+        { "trendName": "Pastel Aesthetic",    "popularityScore": 76 },
+        { "trendName": "Monochrome Dressing", "popularityScore": 72 }
+      ]
+    }
+  ],
+
+  "trendAnalytics": [
+    { "trendId": "trend_y2k",  "trendName": "Y2K Streetwear",      "month": "January",  "year": 2026, "mentions": 430, "popularityScore": 72 },
+    { "trendId": "trend_y2k",  "trendName": "Y2K Streetwear",      "month": "February", "year": 2026, "mentions": 490, "popularityScore": 80 },
+    { "trendId": "trend_y2k",  "trendName": "Y2K Streetwear",      "month": "March",    "year": 2026, "mentions": 540, "popularityScore": 87 },
+    { "trendId": "trend_min",  "trendName": "Minimalist Fashion",  "month": "January",  "year": 2026, "mentions": 350, "popularityScore": 68 },
+    { "trendId": "trend_min",  "trendName": "Minimalist Fashion",  "month": "February", "year": 2026, "mentions": 390, "popularityScore": 75 },
+    { "trendId": "trend_min",  "trendName": "Minimalist Fashion",  "month": "March",    "year": 2026, "mentions": 412, "popularityScore": 82 },
+    { "trendId": "trend_kpop", "trendName": "K-Pop Fashion",       "month": "January",  "year": 2026, "mentions": 520, "popularityScore": 78 },
+    { "trendId": "trend_kpop", "trendName": "K-Pop Fashion",       "month": "February", "year": 2026, "mentions": 575, "popularityScore": 82 },
+    { "trendId": "trend_kpop", "trendName": "K-Pop Fashion",       "month": "March",    "year": 2026, "mentions": 610, "popularityScore": 84 },
+    { "trendId": "trend_eth",  "trendName": "Ethnic Fusion",       "month": "January",  "year": 2026, "mentions": 440, "popularityScore": 70 },
+    { "trendId": "trend_eth",  "trendName": "Ethnic Fusion",       "month": "February", "year": 2026, "mentions": 480, "popularityScore": 74 },
+    { "trendId": "trend_eth",  "trendName": "Ethnic Fusion",       "month": "March",    "year": 2026, "mentions": 520, "popularityScore": 78 },
+    { "trendId": "trend_pas",  "trendName": "Pastel Aesthetic",    "month": "January",  "year": 2026, "mentions": 280, "popularityScore": 60 },
+    { "trendId": "trend_pas",  "trendName": "Pastel Aesthetic",    "month": "February", "year": 2026, "mentions": 318, "popularityScore": 68 },
+    { "trendId": "trend_pas",  "trendName": "Pastel Aesthetic",    "month": "March",    "year": 2026, "mentions": 356, "popularityScore": 76 },
+    { "trendId": "trend_ath",  "trendName": "Athleisure",          "month": "January",  "year": 2026, "mentions": 400, "popularityScore": 70 },
+    { "trendId": "trend_ath",  "trendName": "Athleisure",          "month": "February", "year": 2026, "mentions": 440, "popularityScore": 75 },
+    { "trendId": "trend_ath",  "trendName": "Athleisure",          "month": "March",    "year": 2026, "mentions": 480, "popularityScore": 79 }
+  ],
+
+  "hashtags": [
+    { "tag": "Y2K",         "usageCount": 540, "category": "Style"     },
+    { "tag": "streetwear",  "usageCount": 487, "category": "Style"     },
+    { "tag": "minimalist",  "usageCount": 412, "category": "Style"     },
+    { "tag": "denim",       "usageCount": 389, "category": "Fabric"    },
+    { "tag": "pastel",      "usageCount": 356, "category": "Color"     },
+    { "tag": "kpop",        "usageCount": 610, "category": "Style"     },
+    { "tag": "ethnicfusion","usageCount": 520, "category": "Style"     },
+    { "tag": "vintage",     "usageCount": 310, "category": "Style"     },
+    { "tag": "sustainable", "usageCount": 278, "category": "Lifestyle" },
+    { "tag": "athleisure",  "usageCount": 480, "category": "Lifestyle" },
+    { "tag": "monochrome",  "usageCount": 305, "category": "Style"     },
+    { "tag": "silk",        "usageCount": 234, "category": "Fabric"    },
+    { "tag": "linen",       "usageCount": 222, "category": "Fabric"    },
+    { "tag": "neon",        "usageCount": 175, "category": "Color"     },
+    { "tag": "velvet",      "usageCount": 198, "category": "Fabric"    },
+    { "tag": "grunge",      "usageCount": 188, "category": "Style"     },
+    { "tag": "boho",        "usageCount": 190, "category": "Style"     },
+    { "tag": "retro",       "usageCount": 245, "category": "Style"     }
+  ],
+
+  "trendKeywords": [
+    { "trendName": "Y2K Streetwear",      "keyword": "Y2K",        "weight": 1.00 },
+    { "trendName": "Y2K Streetwear",      "keyword": "denim",      "weight": 0.90 },
+    { "trendName": "Y2K Streetwear",      "keyword": "streetwear", "weight": 0.95 },
+    { "trendName": "Y2K Streetwear",      "keyword": "retro",      "weight": 0.75 },
+    { "trendName": "Minimalist Fashion",  "keyword": "minimalist", "weight": 1.00 },
+    { "trendName": "Minimalist Fashion",  "keyword": "silk",       "weight": 0.80 },
+    { "trendName": "Pastel Aesthetic",    "keyword": "pastel",     "weight": 0.95 },
+    { "trendName": "Pastel Aesthetic",    "keyword": "lavender",   "weight": 0.80 },
+    { "trendName": "Boho Chic",           "keyword": "boho",       "weight": 0.85 },
+    { "trendName": "Sustainable Fashion", "keyword": "sustainable","weight": 1.00 },
+    { "trendName": "Sustainable Fashion", "keyword": "linen",      "weight": 0.85 },
+    { "trendName": "Sustainable Fashion", "keyword": "cotton",     "weight": 0.80 },
+    { "trendName": "Grunge Revival",      "keyword": "grunge",     "weight": 1.00 },
+    { "trendName": "Grunge Revival",      "keyword": "leather",    "weight": 0.85 },
+    { "trendName": "Velvet Luxe",         "keyword": "velvet",     "weight": 1.00 },
+    { "trendName": "Athleisure",          "keyword": "athleisure", "weight": 1.00 },
+    { "trendName": "Neon Accents",        "keyword": "neon",       "weight": 1.00 },
+    { "trendName": "Monochrome Dressing", "keyword": "monochrome", "weight": 1.00 }
+  ],
+
+  "influencers": [
+    { "name": "Komal Pandey",     "followers": 1500000, "region": "India",       "preferredStyles": ["Ethnic Fusion", "Boho"],       "platform": "Instagram", "engagementRate": 4.2 },
+    { "name": "Emma Chamberlain", "followers": 9000000, "region": "USA",         "preferredStyles": ["Y2K", "Streetwear"],           "platform": "Instagram", "engagementRate": 3.8 },
+    { "name": "Alexa Chung",      "followers": 3200000, "region": "UK",          "preferredStyles": ["Minimalist", "Classic"],       "platform": "Instagram", "engagementRate": 2.9 },
+    { "name": "Irene Kim",        "followers": 2800000, "region": "South Korea", "preferredStyles": ["K-Pop Fashion", "Streetwear"], "platform": "Instagram", "engagementRate": 5.1 },
+    { "name": "Chiara Ferragni",  "followers": 7200000, "region": "Italy",       "preferredStyles": ["Haute Couture", "Classic"],    "platform": "Instagram", "engagementRate": 3.2 }
+  ],
+
+  "products": [
+    { "productName": "Denim Jacket",           "style": "Y2K Streetwear",    "fabric": "Denim",   "color": "Blue",      "price": 59.99,  "region": "USA"         },
+    { "productName": "Pastel Midi Dress",       "style": "Pastel Aesthetic",  "fabric": "Cotton",  "color": "Lavender",  "price": 45.00,  "region": "South Korea" },
+    { "productName": "Silk Minimalist Blouse",  "style": "Minimalist Fashion","fabric": "Silk",    "color": "White",     "price": 89.99,  "region": "France"      },
+    { "productName": "Ethnic Kurta Set",        "style": "Ethnic Fusion",     "fabric": "Linen",   "color": "Saffron",   "price": 35.00,  "region": "India"       },
+    { "productName": "Velvet Blazer",           "style": "Velvet Luxe",       "fabric": "Velvet",  "color": "Burgundy",  "price": 129.99, "region": "Italy"       },
+    { "productName": "Oversized Y2K Hoodie",    "style": "Y2K Streetwear",    "fabric": "Cotton",  "color": "Baby Blue", "price": 49.99,  "region": "USA"         },
+    { "productName": "Linen Wide Leg Trousers", "style": "Minimalist Fashion","fabric": "Linen",   "color": "Beige",     "price": 55.00,  "region": "UK"          },
+    { "productName": "Athleisure Jogger Set",   "style": "Athleisure",        "fabric": "Jersey",  "color": "Grey",      "price": 65.00,  "region": "USA"         },
+    { "productName": "Leather Biker Jacket",    "style": "Grunge Revival",    "fabric": "Leather", "color": "Black",     "price": 189.99, "region": "USA"         },
+    { "productName": "K-Pop Pastel Co-ord",     "style": "K-Pop Fashion",     "fabric": "Cotton",  "color": "Pink",      "price": 42.00,  "region": "South Korea" }
+  ],
+
+  "categories": [
+    { "categoryName": "Style",     "description": "Fashion style categories",        "count": 15 },
+    { "categoryName": "Fabric",    "description": "Material and textile keywords",   "count": 8  },
+    { "categoryName": "Color",     "description": "Color trend keywords",            "count": 6  },
+    { "categoryName": "Lifestyle", "description": "Lifestyle and value-based trends","count": 3  },
+    { "categoryName": "Season",    "description": "Seasonal fashion cycle keywords", "count": 4  }
+  ],
+
+  "sessions": [
+    { "userId": "fashion_nova",   "loginTime": "2026-04-01T09:15:00", "ipAddress": "192.168.1.1",  "device": "Mobile"  },
+    { "userId": "style_by_priya", "loginTime": "2026-04-03T11:30:00", "ipAddress": "10.0.0.5",     "device": "Desktop" },
+    { "userId": "london_look",    "loginTime": "2026-04-05T08:45:00", "ipAddress": "172.16.0.10",  "device": "Tablet"  },
+    { "userId": "seoul_street",   "loginTime": "2026-04-06T14:20:00", "ipAddress": "192.168.2.20", "device": "Mobile"  },
+    { "userId": "paris_mode",     "loginTime": "2026-04-07T10:00:00", "ipAddress": "10.10.1.5",    "device": "Desktop" }
+  ],
+
+  "feedbacks": [
+    { "userId": "fashion_nova",   "trendName": "Y2K Streetwear",      "rating": 5, "comment": "Love this trend! It is everywhere.",              "date": "2026-03-20" },
+    { "userId": "style_by_priya", "trendName": "Ethnic Fusion",        "rating": 4, "comment": "Very relevant to the Indian market.",             "date": "2026-03-22" },
+    { "userId": "london_look",    "trendName": "Minimalist Fashion",   "rating": 5, "comment": "Timeless and elegant.",                          "date": "2026-04-02" },
+    { "userId": "seoul_street",   "trendName": "K-Pop Fashion",        "rating": 5, "comment": "Huge in Seoul. Global domination incoming.",      "date": "2026-03-28" },
+    { "userId": "paris_mode",     "trendName": "Haute Couture Revival","rating": 4, "comment": "Beautiful but needs more accessibility.",        "date": "2026-04-01" },
+    { "userId": "london_look",    "trendName": "Sustainable Fashion",  "rating": 5, "comment": "UK fashion taking sustainability seriously.",     "date": "2026-04-07" }
+  ],
+
+  "notifications": [
+    { "userId": "fashion_nova",   "message": "Y2K Streetwear is trending in your region!",               "read": false, "date": "2026-04-05" },
+    { "userId": "style_by_priya", "message": "New trend: Ethnic Fusion gaining popularity in India.",    "read": true,  "date": "2026-04-03" },
+    { "userId": "london_look",    "message": "Sustainable Fashion crossed 250 mentions this week.",      "read": false, "date": "2026-04-06" },
+    { "userId": "seoul_street",   "message": "K-Pop Fashion is now the top trend in South Korea!",       "read": true,  "date": "2026-04-04" },
+    { "userId": "paris_mode",     "message": "Neon Accents trend is rising fast in France.",             "read": false, "date": "2026-04-07" }
+  ],
+
+  "reports": [
+    {
+      "reportTitle": "Spring 2026 Trend Report",
+      "generatedDate": "2026-04-01",
+      "topTrends": ["Y2K Streetwear", "K-Pop Fashion", "Minimalist Fashion", "Ethnic Fusion", "Athleisure"],
+      "regions": ["USA", "India", "UK", "South Korea", "France"]
+    },
+    {
+      "reportTitle": "Winter 2025 Trend Report",
+      "generatedDate": "2025-12-01",
+      "topTrends": ["Vintage Denim", "Sustainable Fashion", "Velvet Luxe", "Haute Couture Revival"],
+      "regions": ["UK", "France", "Italy", "USA"]
+    },
+    {
+      "reportTitle": "Global Fashion Index Q1 2026",
+      "generatedDate": "2026-03-31",
+      "topTrends": ["K-Pop Fashion", "Y2K Streetwear", "Minimalist Fashion", "Athleisure"],
+      "regions": ["USA", "South Korea", "India", "France", "UK"]
+    }
+  ]
+}
